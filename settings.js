@@ -8,9 +8,9 @@ module.exports = {
 SESSION_ID: process.env.SESSION_ID || "", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-STATUES_REPLY: process.env.STATUES_REPLY || "true",
+STATUES_REPLY: process.env.STATUES_REPLY || "false",
 MODE: process.env.MODE || "public",
-AUTO_VOICE: process.env.AUTO_VOICE || "true",
+AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_REACT: process.env.AUTO_REACT || "true",
 FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
